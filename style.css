@@ -35,12 +35,9 @@ body{
   max-width: 100%;
 }
 
-.grid-item img {
-  width: 100%;
-  height: auto;
-  display: block;
+.big{
+  grid-column: 1/ span 8;
 }
-
 
 .seventeen{
   grid-column: 9/ span 2;
