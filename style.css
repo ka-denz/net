@@ -33,6 +33,7 @@ body{
   grid-template-columns: repeat(12, 1fr);
   column-gap: 30px;
   max-width: 100%;
+  object-fit: cover;
 }
 
 .big{
