@@ -29,15 +29,24 @@ p{
 }
 
 body{
+  display: flex;
+
+}
+
+.big{
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   column-gap: 30px;
   max-width: 100%;
   object-fit: cover;
 }
 
-.big{
-  grid-column: 1/ span 8;
+.rec{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .seventeen{
