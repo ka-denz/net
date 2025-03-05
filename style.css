@@ -27,3 +27,29 @@ h2{
 p{
     font-family: unbuntu-light;
 }
+
+body{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 30px;
+}
+
+.sixteen{
+  grid-column: 9/ span 2;
+}
+
+.eighteen{
+  grid-column: 9/ span 2;
+}
+
+.twenty{
+  grid-column: 9/ span 2;
+}
+
+.seventeen{
+  grid-column: 11/ span 2;
+}
+
+.nineteen{
+  grid-column: 11/ span 2;
+}
