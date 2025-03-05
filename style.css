@@ -35,7 +35,11 @@ body{
   max-width: 100%;
 }
 
-
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
 .seventeen{
@@ -54,8 +58,3 @@ body{
   grid-column: 11/ span 2;
 }
 
-.grid-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
