@@ -39,13 +39,11 @@ p{
   max-width: 100%;
   object-fit: cover;
   grid-template-areas: 
-    "img1 img2 img3 img4"
-    "img5 img6 img7 img8"
-    "img9 img10 img11 img12"
-    "img13 img14 img15 img16"
-    "title title title title"
-    "desc desc desc desc"
-    "desc desc desc desc"
+    "img1 img2 img3 img4 title desc desc"
+    "img5 img6 img7 img8 title desc desc"
+    "img9 img10 img11 img12 title desc desc"
+    "img13 img14 img15 img16 title desc desc"
+    
   ;
 }
 
