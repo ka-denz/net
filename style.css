@@ -35,7 +35,7 @@ p{
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(4, 1fr);
   column-gap: 30px;
-  row-gap: 30px;
+  row-gap: 5px;
   max-width: 100%;
   object-fit: cover;
   grid-template-areas: 
@@ -43,6 +43,9 @@ p{
     "img5 img6 img7 img8"
     "img9 img10 img11 img12"
     "img13 img14 img15 img16"
+    "title title title title"
+    "desc desc desc desc"
+    "desc desc desc desc"
   ;
 }
 
@@ -110,11 +113,19 @@ p{
   grid-area: img16;
 }
 
+#title{
+  grid-area: title;
+}
+
+#desc{
+  grid-area: desc;
+}
+
 .rec{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
-  row-gap: 30px;
+  row-gap: 5px;
   max-width: 100%;
   object-fit: cover;
   grid-template-areas: 
