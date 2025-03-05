@@ -30,7 +30,7 @@ p{
 
 body{
   display: flex;
-
+  justify-content: space-around;
 }
 
 .big{
@@ -39,6 +39,12 @@ body{
   column-gap: 30px;
   max-width: 100%;
   object-fit: cover;
+  grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 im8"
+    "img9 img10 img11 img12"
+    "img13 img14 img15 img16"
+  ;
 }
 
 .rec{
