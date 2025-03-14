@@ -156,6 +156,54 @@ p{
   grid-area: img20;
 }
 
+#twentyone{
+  grid-area: img21;
+}
+
+#twentytwo{
+  grid-area: img22;
+}
+
+#twentythree{
+  grid-area: img23;
+}
+
+#twentyfour{
+  grid-area: img24;
+}
+
+#twentyfive{
+  grid-area: img25;
+}
+
+#twentysix{
+  grid-area: img26;
+}
+
+#twentyseven{
+  grid-area: img27;
+}
+
+#twentyeight{
+  grid-area: img28;
+}
+
+#twentynine{
+  grid-area: img29;
+}
+
+#thirty{
+  grid-area: img30;
+}
+
+#thirtyone{
+  grid-area: img31;
+}
+
+#thirtytwo{
+  grid-area: img32;
+}
+
 body{
   display: flex;
   justify-content: space-around;
