@@ -123,7 +123,7 @@ p{
 
 .rec{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 30px;
   row-gap: 5px;
   max-width: 100%;
@@ -209,4 +209,5 @@ body{
   justify-content: space-around;
   width: 80%;
   margin: auto;
+  margin-top: 20%;
 }
