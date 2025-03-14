@@ -37,7 +37,7 @@ p{
   grid-template-columns: auto;
   grid-template-rows: auto;
   column-gap: 30px;
-  row-gap: 30px;
+  row-gap: 10px;
   max-width: 100%;
   object-fit: cover;
   grid-template-areas: 
