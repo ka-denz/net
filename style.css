@@ -219,3 +219,7 @@ body{
     
   ;
 }
+
+#one:after{
+  transform: scale(1.4);
+}
