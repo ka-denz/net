@@ -219,10 +219,10 @@ body{
 }
 
 #one{
-  grid-area: img1;
+  grid-area: img1/img1/img16/img16;
 }
 
 #one:hover{
-  transform: scale(1.4);
+  transform: scale(0.4);
   transition: transform 0.5s ease-in-out;
 }
