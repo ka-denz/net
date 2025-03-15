@@ -222,7 +222,7 @@ body{
   grid-area: img1;
 }
 
-#one:checked{
+#one:hover{
   transform: scale(1.4);
   transition: transform 0.5s ease-in-out;
 }
