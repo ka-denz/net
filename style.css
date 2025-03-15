@@ -223,6 +223,7 @@ body{
 }
 
 #one:hover{
-  transform: scale(0.4);
+  grid-area: img1;
+  /* transform: scale(0.4); */
   transition: transform 0.5s ease-in-out;
 }
