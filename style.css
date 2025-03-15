@@ -220,7 +220,6 @@ body{
 
 #one{
   grid-area: img1;
-  display: none;
 }
 
 #one:checked{
