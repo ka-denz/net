@@ -220,10 +220,11 @@ body{
 
 #one{
   grid-area: img1/img1/img16/img16;
+  z-index: 5;
 }
 
 #one:hover{
   grid-area: img1;
   /* transform: scale(0.4); */
-  transition: transform 0.5s ease-in-out;
+  transition: grid-area 0.5s ease-in-out;
 }
