@@ -17,7 +17,7 @@
   }
 
 h1{
-  font-family: ubuntu-medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2{
@@ -182,6 +182,7 @@ body{
   margin: auto;
   /* margin-top: 20%; */
   margin-top: 20px;
+  background-color: rgb(221, 220, 245);
 }
 
 
@@ -222,6 +223,7 @@ body{
 
 #seventeen{
   grid-area: img17/img17/img20/img20;
+  z-index: 5;
 }
 
 #seventeen:hover{
@@ -230,6 +232,7 @@ body{
 
 #twentyone{
   grid-area: img21/img21/img24/img24;
+  z-index: 5;
 }
 
 #twentyone:hover{
@@ -238,6 +241,7 @@ body{
 
 #twentyfive{
   grid-area: img25/img25/img28/img28;
+  z-index: 5;
 }
 
 #twentyfive:hover{
@@ -246,6 +250,7 @@ body{
 
 #twentynine{
   grid-area: img29/img29/img32/img32;
+  z-index: 5;
 }
 
 #twentynine:hover{
