@@ -120,9 +120,6 @@ p{
   ;
 }
 
-#seventeen{
-  grid-area: img17;
-}
 
 #nineteen{
   grid-area: img19;
@@ -136,9 +133,7 @@ p{
   grid-area: img20;
 }
 
-#twentyone{
-  grid-area: img21;
-}
+
 
 #twentytwo{
   grid-area: img22;
@@ -152,9 +147,7 @@ p{
   grid-area: img24;
 }
 
-#twentyfive{
-  grid-area: img25;
-}
+
 
 #twentysix{
   grid-area: img26;
@@ -168,9 +161,7 @@ p{
   grid-area: img28;
 }
 
-#twentynine{
-  grid-area: img29;
-}
+
 
 #thirty{
   grid-area: img30;
@@ -226,5 +217,37 @@ body{
 #one:hover{
   grid-area: img1;
   /* transform: scale(0.4); */
-  transition: grid-area 0.5s ease-in-out;
+  
+}
+
+#seventeen{
+  grid-area: img17/img17/img20/img20;
+}
+
+#seventeen:hover{
+  grid-area: img17;
+}
+
+#twentyone{
+  grid-area: img21/img21/img24/img24;
+}
+
+#twentyone:hover{
+  grid-area: img21;
+}
+
+#twentyfive{
+  grid-area: img25/img25/img28/img28;
+}
+
+#twentyfive:hover{
+  grid-area: img25;
+}
+
+#twentynine{
+  grid-area: img29/img29/img32/img32;
+}
+
+#twentynine:hover{
+  grid-area: img29;
 }
