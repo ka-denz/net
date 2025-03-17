@@ -1,0 +1,262 @@
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: unbuntu-regular;
+}
+
+p{
+    font-family: unbuntu-light;
+}
+
+
+
+
+
+
+#two{
+  grid-area: img2;
+}
+
+#three{
+  grid-area: img3;
+}
+
+#four{
+  grid-area: img4;
+}
+
+#five{
+  grid-area: img5;
+}
+
+#six{
+  grid-area: img6;
+}
+
+#seven{
+  grid-area: img7;
+}
+
+#eight{
+  grid-area: img8;
+}
+
+#nine{
+  grid-area: img9;
+}
+
+#ten{
+  grid-area: img10;
+}
+
+#eleven{
+  grid-area: img11;
+}
+
+#twelve{
+  grid-area: img12;
+}
+
+#thirteen{
+  grid-area: img13;
+}
+
+#fourteen{
+  grid-area: img14;
+}
+
+#fifteen{
+  grid-area: img15;
+}
+
+#sixteen{
+  grid-area: img16;
+}
+
+#title{
+  grid-area: title;
+}
+
+#desc{
+  grid-area: desc;
+  border: 2px black;
+}
+
+.rec{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  max-width: 100%;
+  object-fit: cover;
+  grid-template-areas: 
+  "img17 img18"
+  "img19 img20"
+  "img21 img22"
+  "img23 img24"
+  "img25 img26"
+  "img27 img28"
+  "img29 img30"
+  "img31 img32"
+  ;
+}
+
+
+#nineteen{
+  grid-area: img19;
+}
+
+#eighteen{
+  grid-area: img18;
+}
+
+#twenty{
+  grid-area: img20;
+}
+
+
+
+#twentytwo{
+  grid-area: img22;
+}
+
+#twentythree{
+  grid-area: img23;
+}
+
+#twentyfour{
+  grid-area: img24;
+}
+
+
+
+#twentysix{
+  grid-area: img26;
+}
+
+#twentyseven{
+  grid-area: img27;
+}
+
+#twentyeight{
+  grid-area: img28;
+}
+
+
+
+#thirty{
+  grid-area: img30;
+}
+
+#thirtyone{
+  grid-area: img31;
+}
+
+#thirtytwo{
+  grid-area: img32;
+}
+
+body{
+  display: flex;
+  /* justify-content: space-around; */
+  width: 90%;
+  margin: auto;
+  /* margin-top: 20%; */
+  margin-top: 20px;
+  background-color: rgb(221, 220, 245);
+}
+
+
+.big{
+  display: grid;
+  /* grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  /* grid-template-columns: auto; */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: auto; */
+  grid-template-rows: repeat(6, 1fr);
+  /* column-gap: 30px;
+  row-gap: 10px; */
+  gap: 5% 5%;
+  max-width: 100%;
+  margin-right: 10%;
+  /* object-fit: cover; */
+  grid-template-areas: 
+    "img1 img2 img3 img4"
+    "img5 img6 img7 img8"
+    "img9 img10 img11 img12"
+    "img13 img14 img15 img16"
+    "title title title title"
+    "desc desc desc desc"
+    
+  ;
+}
+
+#one{
+  grid-area: img1;
+  z-index: 5;
+  /* object-fit: fill; */
+}
+
+/* #one:hover{
+  grid-area: img1;
+ 
+  transition-duration: 3s ease-in;
+  
+} */
+
+#seventeen{
+  grid-area: img17/img17/img20/img20;
+  z-index: 5;
+}
+
+/* #seventeen:hover{
+  grid-area: img17;
+} */
+
+#twentyone{
+  grid-area: img21/img21/img24/img24;
+  z-index: 5;
+}
+
+/* #twentyone:hover{
+  grid-area: img21;
+} */
+
+#twentyfive{
+  grid-area: img25/img25/img28/img28;
+  z-index: 5;
+}
+
+/* #twentyfive:hover{
+  grid-area: img25;
+} */
+
+#twentynine{
+  grid-area: img29/img29/img32/img32;
+  z-index: 5;
+}
+
+/* #twentynine:hover{
+  grid-area: img29;
+} */
