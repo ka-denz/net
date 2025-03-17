@@ -199,7 +199,7 @@ body{
   row-gap: 10px;
   max-width: 100%;
   margin-right: 10%;
-  object-fit: cover;
+  /* object-fit: cover; */
   grid-template-areas: 
     "img1 img2 img3 img4"
     "img5 img6 img7 img8"
