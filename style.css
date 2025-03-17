@@ -197,7 +197,7 @@ body{
   grid-template-rows: repeat(6, 1fr);
   /* column-gap: 30px;
   row-gap: 10px; */
-  gap: 10%;
+  gap: 1%;
   max-width: 100%;
   margin-right: 10%;
   /* object-fit: cover; */
