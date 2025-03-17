@@ -220,6 +220,7 @@ body{
 #one:hover{
   grid-area: img1;
   /* transform: scale(0.4); */
+  transition-duration: 3s ease-in;
   
 }
 
