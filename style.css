@@ -197,7 +197,7 @@ body{
   grid-template-rows: repeat(6, 1fr);
   /* column-gap: 30px;
   row-gap: 10px; */
-  gap: 1%;
+  gap: 5% 5%;
   max-width: 100%;
   margin-right: 10%;
   /* object-fit: cover; */
@@ -218,45 +218,45 @@ body{
   /* object-fit: fill; */
 }
 
-#one:hover{
+/* #one:hover{
   grid-area: img1;
-  /* transform: scale(0.4); */
+ 
   transition-duration: 3s ease-in;
   
-}
+} */
 
 #seventeen{
   grid-area: img17/img17/img20/img20;
   z-index: 5;
 }
 
-#seventeen:hover{
+/* #seventeen:hover{
   grid-area: img17;
-}
+} */
 
 #twentyone{
   grid-area: img21/img21/img24/img24;
   z-index: 5;
 }
 
-#twentyone:hover{
+/* #twentyone:hover{
   grid-area: img21;
-}
+} */
 
 #twentyfive{
   grid-area: img25/img25/img28/img28;
   z-index: 5;
 }
 
-#twentyfive:hover{
+/* #twentyfive:hover{
   grid-area: img25;
-}
+} */
 
 #twentynine{
   grid-area: img29/img29/img32/img32;
   z-index: 5;
 }
 
-#twentynine:hover{
+/* #twentynine:hover{
   grid-area: img29;
-}
+} */
