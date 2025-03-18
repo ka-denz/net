@@ -215,16 +215,13 @@ body{
 #one{
   grid-area: img1/img1/img16/img16;
   z-index: 5;
-  border: solid 3px red;
+  
   /* object-fit: fill; */
 }
 
-/* #one:hover{
-  grid-area: img1;
- 
-  transition-duration: 3s ease-in;
-  
-} */
+#one:hover{
+  filter: invert(100%);
+}
 
 #seventeen{
   grid-area: img17/img17/img20/img20;
