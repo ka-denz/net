@@ -237,12 +237,12 @@ body{
 #twentyone{
   grid-area: img21/img21/img24/img24;
   z-index: 5;
-  border: solid 3px red;
+  
 }
 
-/* #twentyone:hover{
-  grid-area: img21;
-} */
+#twentyone:hover{
+    filter: invert(100%); 
+}
 
 #twentyfive{
   grid-area: img25/img25/img28/img28;

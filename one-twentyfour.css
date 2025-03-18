@@ -247,12 +247,12 @@ body{
 #twentyfive{
   grid-area: img25/img25/img28/img28;
   z-index: 5;
-  border: solid 3px red
+
 }
 
-/* #twentyfive:hover{
-  grid-area: img25;
-} */
+#twentyfive:hover{
+    filter: invert(100%); 
+}
 
 #twentynine{
   grid-area: img29/img29/img32/img32;
