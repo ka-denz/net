@@ -99,7 +99,8 @@ p{
 
 #desc{
   grid-area: desc;
-  border: 2px black;
+  font-size: large;
+  border: solid 2px black;
 }
 
 .rec{
