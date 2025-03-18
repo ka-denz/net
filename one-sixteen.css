@@ -228,6 +228,7 @@ body{
 #seventeen{
   grid-area: img17/img17/img20/img20;
   z-index: 5;
+  border: solid 3px red;
 }
 
 /* #seventeen:hover{

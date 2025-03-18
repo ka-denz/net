@@ -213,9 +213,8 @@ body{
 }
 
 #one{
-  grid-area: img1/img1/img16/img16;
+  grid-area: img1;
   z-index: 5;
-  border: solid 3px red;
   /* object-fit: fill; */
 }
 
@@ -227,7 +226,7 @@ body{
 } */
 
 #seventeen{
-  grid-area: img17/img17/img20/img20;
+  grid-area: img17;
   z-index: 5;
 }
 
@@ -238,6 +237,7 @@ body{
 #twentyone{
   grid-area: img21/img21/img24/img24;
   z-index: 5;
+  border: solid 3px red;
 }
 
 /* #twentyone:hover{

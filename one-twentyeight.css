@@ -213,9 +213,8 @@ body{
 }
 
 #one{
-  grid-area: img1/img1/img16/img16;
+  grid-area: img1;
   z-index: 5;
-  border: solid 3px red;
   /* object-fit: fill; */
 }
 
@@ -227,7 +226,7 @@ body{
 } */
 
 #seventeen{
-  grid-area: img17/img17/img20/img20;
+  grid-area: img17;
   z-index: 5;
 }
 
@@ -236,8 +235,9 @@ body{
 } */
 
 #twentyone{
-  grid-area: img21/img21/img24/img24;
+  grid-area: img21;
   z-index: 5;
+  ;
 }
 
 /* #twentyone:hover{
@@ -245,8 +245,9 @@ body{
 } */
 
 #twentyfive{
-  grid-area: img25/img25/img28/img28;
+  grid-area: img25;
   z-index: 5;
+  
 }
 
 /* #twentyfive:hover{
@@ -256,6 +257,7 @@ body{
 #twentynine{
   grid-area: img29/img29/img32/img32;
   z-index: 5;
+  border: solid 3px red
 }
 
 /* #twentynine:hover{
