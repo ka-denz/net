@@ -257,6 +257,7 @@ body{
 #twentynine{
   grid-area: img29/img29/img32/img32;
   z-index: 5;
+  width: 200%;
  
 }
 

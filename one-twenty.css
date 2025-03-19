@@ -237,6 +237,7 @@ body{
 #twentyone{
   grid-area: img21/img21/img24/img24;
   z-index: 5;
+  width: 200%;
   
 }
 
