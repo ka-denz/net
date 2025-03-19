@@ -240,9 +240,6 @@ body{
   
 }
 
-#twentyone:hover{
-    filter: invert(100%); 
-}
 
 #twentyfive{
   grid-area: img25/img25/img28/img28;

@@ -231,10 +231,8 @@ body{
   
 }
 
-#seventeen:hover{
-  grid-area: img17/img17/img20/img20;
-  filter: invert(100%); 
-}
+
+
 
 #twentyone{
   grid-area: img21/img21/img24/img24;
