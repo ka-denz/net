@@ -229,6 +229,7 @@ body{
   grid-area: img17/img17/img20/img20;
   z-index: 5;
   width: 50%;
+  max-width: 50%;
 
 }
 
